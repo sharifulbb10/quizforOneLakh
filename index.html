@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="utf-8">
+<meta name="author" content="Shariful Islam">
+<title>লাখ টাকার কুইজ! অংশ নিন।</title>
+<style>
+body {
+				text-align: center;
+				background-color: tomato;
+				color: #ffffff;
+				font-size: x-large;
+				}
+h1 {
+				color: #17d1ff;
+				}
+.color {
+				color: #17d1ff;
+				}
+</style>
+<script>
+function displaySurprise() {
+				var news;
+				news=document.getElementById("update");
+				news.outerHTML="<h1>ফারভেজ!</h1>";
+				}
+</script>
+</head>
+
+<body>
+<h2 id="update">কোন প্রাণী গর্ত থেকে বের হয়ে আবার গর্তে ঢুকে পড়ে?<br><span class="color">উত্তর জানতে নিচে চাপুন</span></h2>
+<input id="update" type="button" value="উত্তর জানতে প্রেস করুন!" onclick="displaySurprise();">
+</body>
+</html>
